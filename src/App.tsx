@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { ChatMessage } from './components/ChatMessage'
 import { ChatInput } from './components/ChatInput'
 import { ScrollArea } from './components/ui/scroll-area'
+import { Button } from './components/ui/button'
 import { useToast } from './hooks/use-toast'
 
 type Message = {
